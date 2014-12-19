@@ -1,0 +1,31 @@
+{
+  "name": "artstack",
+  "version": "1.0.0",
+  "description": "Unofficial ArtStack API wrapper for NodeJS.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "request": "^2.51.0",
+    "cheerio": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-artstack.git"
+  },
+  "keywords": [
+    "api",
+    "artstack"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-artstack/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-artstack"
+}
