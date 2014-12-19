@@ -1,5 +1,5 @@
 // Dependencies
-var ArtStack = require("artstack");
+var ArtStack = require("../lib");
 
 // Authenticate
 ArtStack.auth(require("./auth"), function (err) {
