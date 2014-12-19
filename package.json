@@ -2,13 +2,13 @@
   "name": "artstack",
   "version": "1.0.0",
   "description": "Unofficial ArtStack API wrapper for NodeJS.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "request": "^2.51.0",
-    "cheerio": "^0.18.0"
+    "request": "2.51.0",
+    "cheerio": "0.18.0"
   },
   "devDependencies": {},
   "scripts": {
