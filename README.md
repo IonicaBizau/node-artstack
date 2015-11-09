@@ -1,25 +1,21 @@
-Artstack
-========
+# artstack [![Support this project][donate-now]][paypal-donations]
+
 Unofficial ArtStack API wrapper for NodeJS.
 
-# Installation
+## Installation
 
 ```sh
-$ npm install artstack
+$ npm i -g artstack
 ```
 
-# Example
+## Example
 
 ```js
 // Dependencies
 var ArtStack = require("artstack");
 
 // Authenticate
-ArtStack.auth({
-    username: "yourusername"
-  , email: "you@domain.com"
-  , password: "yourpassword"
-}, function (err) {
+ArtStack.auth(require("./auth"), function (err) {
     if (err) throw err;
 
     // List your following artists
@@ -41,47 +37,25 @@ ArtStack.auth({
 });
 ```
 
-# Documentation
-## `ArtStack.auth(loginData, callback)`
-Authenticates the user.
+## Documentation
 
-### Params
-- **Object** `loginData`: An object containing the following fields:
- - `username` (String): The username.
- - `password` (String): The password.
- - `email` (String): The email address.
+## How to contribute
+Have an idea? Found a bug? See [how to contribute][contributing].
 
-- **Function** `callback`: The callback function.
+## Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## `ArtStack.artworks.fromArtist(user, callback)`
-Fetches artworks from provided artist.
+ - [`artstack-downloader`](https://github.com/IonicaBizau/artstack-downloader)
 
-### Params
-- **User** `user`: The user object (must contain the `profile_url` field).
-- **Function** `callback`: The callback function.
+## License
 
-## `ArtStack.tags.fromUser(username, callback)`
-Fetches the tags from provided user.
+[KINDLY][license] © [Ionică Bizău][website]
 
-### Params
-- **String** `username`: The user's username where you want to fetch the tags from.
-- **Function** `callback`: The callback function.
+[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2014
 
-## `ArtStack.tags.list(callback)`
-Fetches the authenticated user's tags.
+[website]: http://ionicabizau.net
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
+[donate-now]: http://i.imgur.com/6cMbHOC.png
 
-### Params
-- **Function** `callback`: The callback function.
-
-# How to contribute
-1. File an issue in the repository, using the bug tracker, describing the
-   contribution you'd like to make. This will help us to get you started on the
-   right foot.
-2. Fork the project in your account and create a new branch:
-   `your-great-feature`.
-3. Commit your changes in that branch.
-4. Open a pull request, and reference the initial issue in the pull request
-   message.
-
-# License
-See the [LICENSE](./LICENSE) file.
+[contributing]: /CONTRIBUTING.md
+[docs]: /DOCUMENTATION.md
