@@ -5,7 +5,7 @@ Unofficial ArtStack API wrapper for NodeJS.
 ## Installation
 
 ```sh
-$ npm i -g artstack
+$ npm i artstack
 ```
 
 ## Example
