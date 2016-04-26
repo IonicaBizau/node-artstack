@@ -1,6 +1,6 @@
 {
   "name": "artstack",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Unofficial ArtStack API wrapper for NodeJS.",
   "main": "lib/index.js",
   "directories": {
@@ -27,5 +27,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-artstack/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-artstack"
+  "homepage": "https://github.com/IonicaBizau/node-artstack",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
