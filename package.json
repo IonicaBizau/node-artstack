@@ -1,6 +1,6 @@
 {
   "name": "artstack",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "description": "Unofficial ArtStack API wrapper for NodeJS.",
   "main": "lib/index.js",
   "directories": {
@@ -39,6 +39,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
